@@ -1,0 +1,172 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.grey{
+    color: #4b4b4b;
+}
+.white{
+    color: rgb(255, 255, 255) !important;
+}
+.bold{
+    font-weight: bold;
+    opacity: 0.9;
+}
+.h50{
+    height: 50px;
+}
+.mt28{
+    margin-top: 28%;
+}
+.w90{
+    width: 90%;
+}
+.btn-orange{
+    background: orange;
+}
+.btn-orange:hover{
+    background: darkorange;
+    color: #f0f0f0;
+}
+.orange{
+    color: orange;
+}
+.orange:hover{
+    color: darkorange;
+}
+.border_2x{
+    border: 2px solid white !important;
+}
+.lh{
+    line-height: 28px;
+}
+.paragraph{
+    font-size: 18px;
+    color: #333333;
+    line-height: 28px;
+}
+.a0{
+
+    animation-duration: 1s;
+}
+.a1{
+
+    animation-duration: 1.5s;
+}
+.a2{
+    animation-duration: 2s;
+}
+.a3{
+    animation-duration: 2.5s;
+}
+.a4{
+    animation-duration: 3s;
+}
+
+
+
+
+.nav_color{
+    color: #2b2b2b !important;
+}
+.nav_color_active{
+    color: orange !important;
+}
+.menu_nav .nav-item a{
+    margin: 10px 10px;
+    font-size: 20px;
+    font-weight: bold;
+}
+.menu_nav .nav-item:hover{
+    border-bottom: 1px solid #0300ff;
+}
+.main_title{
+    position: absolute;
+    top: 0;
+    width: 100%;
+    text-align: center;
+    z-index: 4;
+    background: rgba(0, 0, 0, 0.15);
+    height: 638px;
+}
+
+.c1,.c2,.c3{
+    background-size: cover;
+    filter: blur(1px);
+    width: 100%;
+    height: 640px;
+}
+.c1{
+    background-image: url("../img/one.jpg");
+}
+.c2{
+    background-image: url("../img/two.jpg");
+}
+.c3{
+    background-image: url("../img/three.jpg");
+}
+.main_title h1{
+    font-size: 40px;
+    font-weight: bolder;
+    color: #f4f4f4;
+    line-height: 77px;
+}
+.main_form{
+    margin-bottom: 99px;
+}
+.main_image_title{
+    position: absolute;
+    top: 0;
+    background: rgba(0, 0, 0, 0.33);
+}
+.main_image_title h4{
+    margin-top: 28%;
+}
+.choice{
+    display: none;
+}
+.main_image:hover .main_image_title h4{
+    margin-top: 15%;
+}
+.main_image:hover .choice{
+    display: block;
+}
+.real_estate{
+    background-image: url("../img/real_bg.jpg");
+    background-size: cover;
+}
+.real_estate_body{
+    background: rgba(0, 0, 0, 0.49);
+}
+.get_in_touch{
+    background-image: url("../img/real_bg.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: repeat;
+}
+.git_bg{
+    background: rgba(0, 0, 0, 0.32);
+}
+.footer{
+    background: #191919;
+}
+.cat_bg{
+    background-image: url("../img/catalog.jpg");
+}
+.cat_title{
+    height: 500px;
+    background: rgba(0, 0, 0, 0.42);
+}
+.cat_title h1{
+    font-size: 41px;
+}
+.our_service{
+    background: url("../img/our_service.jpg");
+}
+.about_agc_title a{
+    padding: 10px 20px;
+    border: 0px;
+    font-weight: bold;
+    font-size: 18px;
+    color: #707070;
+}

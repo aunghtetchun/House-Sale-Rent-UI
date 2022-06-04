@@ -1,0 +1,270 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>အမျိုးအစား</title>
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/all.min.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/animate.min.css">
+</head>
+<body>
+<div class="container-fluid">
+    <div class="row">
+        <!------------------------    menu start--------------------------------------->
+        <div class="col-12 p-0 sticky-top" >
+            <nav class="navbar navbar-expand-lg navbar-light bg-light">
+                <div class="my-2 ml-4 navbar-brand">
+                    <img src="img/logo.png" alt="">
+                </div>
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav menu_nav ml-auto">
+                        <li class="nav-item">
+                            <a class="nav-link nav_color" href="index.html">ပင်မ</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link nav_color_active " href="catalog.html">အမျိုးအစား</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link nav_color " href="submit.html">အချက်အလက်ဖြည့်သွင်းရန်</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link nav_color " href="service.html">ဝန်ဆောင်မှု  </a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link nav_color " href="about.html">အကြောင်း</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link nav_color " href="contact.html">ဆက်သွယ်ရန်</a>
+                        </li>
+                    </ul>
+                </div>
+            </nav>
+
+        </div>
+        <!------------------------    menu end--------------------------------------->
+        <!------------------------    cat main end--------------------------------------->
+        <div class="col-12 d-flex flex-wrap p-0 cat_bg">
+            <div class="cat_title col-12 d-flex justify-content-center align-items-center flex-column" >
+                <h1 class="bold white wow animate__slideInLeft a0 text-center" style="line-height: 67px">အိမ်ခြံမြေစာရင်း</h1>
+                <h5 class="bold white mt-4 wow animate__slideInRight a0"><span class="orange">ပင်မ</span> / အမျိုးအစား</h5>
+            </div>
+        </div>
+        <!------------------------    cat main end--------------------------------------->
+
+        <!------------------------    property filter start--------------------------------------->
+        <div class="col-12 d-flex justify-content-center flex-wrap p-0 py-5" style="background: #f7f7f7">
+            <h3 class="col-11 bold text-dark wow animate__bounce a0">အိမ်ခြံမြေရှာဖွေခြင်း</h3>
+            <form class="col-11 py-4">
+                <div class="form-row wow animate__bounceInLeft a0">
+                    <div class="form-group col-md-4">
+                        <label for="location" class="bold ">တည်နေရာ</label>
+                        <input type="text" class="form-control" id="location" required>
+                    </div>
+                    <div class="form-group col-md-4">
+                        <label for="status" class="bold ">အိမ်ခြံမြေအခြေအနေ</label>
+                        <input type="text" class="form-control" id="status" required>
+                    </div>
+                    <div class="form-group col-md-4">
+                        <label for="type" class="bold">အိမ်ခြံမြေအမျိုးအစား:</label>
+                        <input type="text" class="form-control" id="type" required>
+                    </div>
+                </div>
+                <div class="form-row wow animate__bounceInRight a0">
+                    <div class="form-group col-6 col-md-4 col-lg-1 ">
+                        <label for="beds" class="bold ">အိပ်ခန်း</label>
+                        <select id="beds" class="form-control">
+                            <option selected disabled>ရွေးပါ</option>
+                            <option>1</option>
+                            <option>2</option>
+                            <option>3</option>
+                            <option>4</option>
+                            <option>5</option>
+                        </select>
+                    </div>
+                    <div class="form-group col-6 col-md-4 col-lg-1 ">
+                        <label for="baths" class="bold ">ရေချိုးခန်း</label>
+                        <select id="baths" class="form-control">
+                            <option selected disabled>ရွေးပါ</option>
+                            <option>1</option>
+                            <option>2</option>
+                            <option>3</option>
+                            <option>4</option>
+                            <option>5</option>
+                        </select>
+                    </div>
+                    <div class="form-group  col-6 col-md-4 col-lg-2">
+                        <label for="min_price" class="bold ">စျေးနှုန်း (အနည်းဆုံး)</label>
+                        <input type="text" class="form-control" id="min_price" placeholder="အနည်းဆုံး" required>
+                    </div>
+                    <div class="form-group  col-6 col-md-4 col-lg-2">
+                        <label for="max_price" class="bold  ">စျေးနှုန်း (အများဆုံး)</label>
+                        <input type="text" class="form-control" id="max_price" placeholder="အများဆုံး" required>
+                    </div>
+                    <div class="form-group  col-6 col-md-4 col-lg-2">
+                        <label for="length" class="bold ">ဧရိယာ (အလျှား)</label>
+                        <input type="text" class="form-control" id="length" placeholder="အလျှား" required>
+                    </div>
+                    <div class="form-group  col-6 col-md-4 col-lg-2">
+                        <label for="width" class="bold ">ဧရိယာ (အနံ)</label>
+                        <input type="text" class="form-control" id="width" placeholder="အနံ" required>
+                    </div>
+                    <div class="form-group col-6 col-md-4 col-lg-1 ">
+                        <label for="sort" class="bold ">စီရန်</label>
+                        <select id="sort" class="form-control">
+                            <option selected disabled>ရွေးပါ</option>
+                            <option>စျေးနှုန်း</option>
+                            <option>ရက်စွဲ</option>
+
+                        </select>
+                    </div>
+                    <div class="form-group col-6 col-md-4 col-lg-1 ">
+                        <label for="" class="bold ">ရှာရန်</label>
+                        <button type="submit" class="btn btn-primary form-control bold "> ရှာမယ် </button>
+                    </div>
+                </div>
+
+            </form>
+        </div>
+        <!------------------------    property filter end--------------------------------------->
+
+
+        <!------------------------    card start--------------------------------------->
+
+        <div class="col-12 d-flex flex-wrap justify-content-center pb-2">
+            <div class="col-12 px-0 col-md-8 col-lg-8 d-flex flex-wrap justify-content-center">
+                <h2 class="col-12 bold text-left my-4 wow animate__bounce a0" style="padding-left: 30px">လက်တလောရရှိနိုင်သောနေရာများ</h2>
+                <div class="col-12 col-md-6 col-lg-6 my-2 wow animate__zoomInLeft a0" style="padding: 3px 30px;">
+                    <img src="img/rp1.jpg" alt="" class="w-100 ">
+                    <h3 class="bold py-2 orange">ကျောက်တံတား</h3>
+                    <h5 class="bold">ငါးသိန်းကျပ်/တစ်လ</h5>
+                    <h6>1200 sq ft | အိပ်ခန်းသုံးခန်း | ရေချိုးခန်းနှစ်ခန်း</h6>
+                    <p> စတူဒီယိုခန်းပါဝင်ပီး ကျယ်ပြန့်သောအခန်းဖွဲ့စည်းပုံရှိပါတယ် အိပ်ခန်းလေးခန်းနှင့် ရေချိုးခန်းလေးခန်းပါဝင်ပါတယ်</p>
+
+                </div>
+                <div class="col-12 col-md-6 col-lg-6 my-3 wow animate__zoomInRight a0" style="padding: 3px 30px;">
+                    <img src="img/rp2.jpg" alt="" class="w-100 ">
+                    <h3 class="bold py-2 orange">ကြည့်မြင်တိုင်</h3>
+                    <h5 class="bold">လေးသိန်းကျပ်/တစ်လ</h5>
+                    <h6>1900 sq ft | အိပ်ခန်းလေးခန်း | ရေချိုးခန်းနှစ်ခန်း</h6>
+                    <p>ဇိမ်ခံတိုက်ခန်းဖြစ်ပီး ခေတ်မှီသောဝန်ဆောင်မှုများ အေးချမ်းတိတ်ဆိပ်သောပတ်ဝန်းကျင်ကို နှစ်သက်သောသူများအတွက် အထူးသင့်လျော်ပါတယ်</p>
+
+                </div>
+                <div class="col-12 col-md-6 col-lg-6 my-3 wow animate__zoomInLeft a0" style="padding: 3px 30px;">
+                    <img src="img/rp3.jpg" alt="" class="w-100 ">
+                    <h3 class="bold py-2 orange">ပန်းဘဲတန်း</h3>
+                    <h5 class="bold">သုံးသိန်းငါးသောင်းကျပ်/တစ်လ</h5>
+                    <h6>1000 sq ft | အိပ်ခန်းသုံးခန်း | ရေချိုးခန်းနှစ်ခန်း</h6>
+                    <p>မြို့တော်၏လူစည်ကားတဲ့နေရာတွင်တည်ရှိပီး နာမည်ကြီးနေရာများကို လွယ်ကူစွာလည်ပတ်သွားလာနိုင်ပါတယ်</p>
+
+                </div>
+                <div class="col-12 col-md-6 col-lg-6 my-3 wow animate__zoomInRight a0" style="padding: 3px 30px;">
+                    <img src="img/rp4.jpg" alt="" class="w-100 ">
+                    <h3 class="bold py-2 orange">စမ်းချောင်း</h3>
+                    <h5 class="bold">ဆယ်သိန်းကျပ်/တစ်လ</h5>
+                    <h6>1200 sq ft | အိပ်ခန်းလေးခန်း | ရေချိုးခန်းသုံးခန်း</h6>
+                    <p>တိတ်ဆိပ်သောရပ်ကွက် ကျယ်ဝန်းသောနေရာ ခေတ်မှီသောဝန်ဆောင်မှုများကို သေဘာက်ကြိုက်နှစ်သက်သူများအတွက် အထူးသင့်လျှော်ပါတယ်</p>
+
+                </div>
+                <div class="col-12 col-md-6 col-lg-6 my-3 wow animate__zoomInLeft a0" style="padding: 3px 30px;">
+                    <img src="img/rp5.jpg" alt="" class="w-100 ">
+                    <h3 class="bold py-2 orange">ဆိပ်ကမ်း</h3>
+                    <h5 class="bold">လေးသိန်းငါးသောင်းကျပ်/တစ်လ</h5>
+                    <h6>790 sq ft | အိပ်ခန်းလေးခန်း | ရေချိုးခန်းနှစ်ခန်း</h6>
+                    <p>လတ်ဆပ်သောလေကောင်းလေသန့် သာယာလှပသောရှုခင်း ခေတ်မှီသောအသုံးအဆောင်ပစ္စည်းများနဲ့ တိတ်ဆိပ်သောပတ်ဝန်းကျင်ကိုနှစ်သက်တဲ့သူတွေအတွက်ပိုအဆင်ပြေပါတယ်။ အိပ်ခန်းလေးခန်း ရေချိုးခန်းသုံးခန်းပါဝင်ပါတယ်။</p>
+
+                </div>
+                <div class="col-12 col-md-6 col-lg-6 my-3 wow animate__zoomInRight a0" style="padding: 3px 30px;">
+                    <img src="img/rp6.jpg" alt="" class="w-100 ">
+                    <h3 class="bold py-2 orange">ဒဂုံ</h3>
+                    <h5 class="bold">နှစ်သိန်းကျပ်/တစ်လ</h5>
+                    <h6>990 sq ft | အိပ်ခန်းနှစ်ခန်း | ရေချိုးခန်းနှစ်ခန်း</h6>
+                    <p>စျေးနှုန်းချိုချိုသာသာနဲ့ ရေမီးအစုံအလင်ရရှိနိုင်ပီး အိပ်ခန်းနှစ်ခန်း ရေချိုးခန်းနှစ်ခန်းပါဝင်ပါတယ်။</p>
+                </div>
+                <div class="col-12 pt-2 d-flex justify-content-center wow animate__bounce a1">
+                    <nav aria-label="Page navigation example">
+                        <ul class="pagination">
+                            <li class="page-item disabled"><a class="page-link text-dark  bold" href="#">ရှေ့</a></li>
+                            <li class="page-item"><a class="page-link btn-orange white" href="#">1</a></li>
+                            <li class="page-item"><a class="page-link" href="#">2</a></li>
+                            <li class="page-item"><a class="page-link" href="#">3</a></li>
+                            <li class="page-item"><a class="page-link text-dark bold" href="#">နောက်</a></li>
+                        </ul>
+                    </nav>
+                </div>
+            </div>
+            <div class="col-12 col-md-4 col-lg-4 mt-lg-5 mt-md-5 mt-sm-2 mb-2 wow animate__slideInRight a1" style="margin-bottom: 100px">
+                <iframe class="w-100 mt-lg-5 mt-md-5 mt-sm-2 mb-lg-4 h-100" src="https://www.google.com/maps/embed?pb=!1m26!1m12!1m3!1d30547.442113260782!2d96.1229324367236!3d16.854597257581666!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!4m11!3e6!4m3!3m2!1d16.8565435!2d96.1208935!4m5!1s0x30c1935c52614d7d%3A0xd468e0be0df65f1f!2sYangon!3m2!1d16.840322399999998!2d96.1599907!5e0!3m2!1sen!2smm!4v1594994519015!5m2!1sen!2smm" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
+            </div>
+        </div>
+
+        <!------------------------    card end--------------------------------------->
+        <!------------------------   footer start--------------------------------------->
+        <div class="px-3 col-12 d-flex justify-content-center flex-wrap footer">
+            <div class="col-12 col-md-6 col-lg-3 py-5  px-5 wow animate__bounceInLeft a3">
+                <img src="img/footer_logo.png" alt="" class="pb-3">
+                <p class="bold text-muted pl-2">Real Estate</p>
+                <div class="d-flex col-12 justify-content-start">
+                    <i class="fab fa-facebook fa-fw rounded-circle white pr-4  fa-2x"></i>
+                    <i class="fab fa-twitter fa-fw rounded-circle white pr-4  fa-2x"></i>
+                    <i class="fab fa-google-plus fa-fw rounded-circle white pr-4  fa-2x"></i>
+                    <i class="fab fa-instagram fa-fw rounded-circle white pr-4  fa-2x"></i>
+                </div>
+            </div>
+            <div class="col-12 col-md-6 col-lg-4 py-5 wow animate__bounceInLeft a2">
+                <h4 class="bold white">သတင်းသစ်များ</h4>
+                <p class="bold white lh pr-lg-5">နောက်ဆုံးပေါ်ကုမ္ပဏီသတင်းများနှင့်အဖြစ်အပျက်များကိုရယူပါ။ သင့်အီးမေးလ်ကိုရေးပြီး သတင်းအသစ်များကိုရယူလိုက်ပါ။</p>
+                <form class="form-inline py-3">
+                    <div class="input-group mb-2 mr-sm-2">
+                        <div class="input-group-prepend">
+                            <div class="input-group-text"><i class="fas fa-envelope fa-fw"></i></div>
+                        </div>
+                        <input type="text" class="form-control" id="inlineFormInputGroupUsername2" placeholder="သင်၏အီးမေးလ်လိပ်စာရေးပါ">
+                        <div class="input-group-append">
+                            <button class="btn btn-orange bold white" type="button">အတည်ပြုပါ</button>
+                        </div>
+                    </div>
+                </form>
+            </div>
+            <div class="col-12 col-md-6 col-lg-2 py-5 wow animate__bounceInLeft a1">
+                <h4 class="bold white text-left">အသုံးဝင်သော link များ</h4>
+                <ul class="bold white pl-3">
+                    <li class="py-1 bold white">အချက်အလက်</li>
+                    <li class="py-1 bold white">အဆင်ပြေမှုများ</li>
+                    <li class="py-1 bold white">အငှား</li>
+                    <li class="py-1 bold white">ပေါင်နှံခြင်း</li>
+                    <li class="py-1 bold white">ကိုယ်စားလှယ်များ</li>
+                </ul>
+            </div>
+            <div class="col-12 col-md-6 col-lg-3 py-5 wow animate__bounceInLeft a0">
+                <h4 class="bold white text-left">နောက်ဆုံးပေါ်သတင်းများ</h4>
+                <p class="text-muted"><i class="fas fa-arrow-right fa-fw orange"></i> 05/14/2015</p>
+                <h5 class="bold white">LA ရှိထိပ်တန်းတိုက်ခန်း ၁၀ ခန်း</h5>
+                <p class="text-muted"><i class="fas fa-arrow-right fa-fw orange"></i> 05/14/2015</p>
+                <h5 class="bold white">အိမ်ခြံမြေငှားရမ်းခြင်း</h5>
+                <p class="text-muted"><i class="fas fa-arrow-right fa-fw orange"></i> 05/14/2015</p>
+                <h5 class="bold white">အပေါင်ခံချေးငွေအချက်အလက်</h5>
+            </div>
+            <p class=" col-12 text-muted text-center mb-3">Intense Real Estate © 2020 . Privacy Policy</p>
+
+        </div>
+        <!------------------------   footer end--------------------------------------->
+    </div>
+</div>
+<script src="js/jquery.js"></script>
+<script src="js/bootstrap.min.js"></script>
+<script src="js/fontawesome.min.js"></script>
+<script async src="dist/purecounter.js"></script>
+<script src="dist/wow.min.js"></script>
+<script>
+    new WOW().init();
+</script>
+</body>
+</html>
